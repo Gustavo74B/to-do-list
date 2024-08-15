@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "poppins";
 }
 
 body {
@@ -9,7 +10,7 @@ body {
     flex-direction: column;
     background-color: #1e293b;
     display: flex;
-    height: 100vh;
+    margin-top: 32vh;
 }
 
 header {
@@ -18,20 +19,30 @@ header {
 }
 
 .add {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    margin-inline: auto;
 }
 
 .mais {
     padding-inline: 10px;
     padding-block: 1px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 li {
     list-style: none;
 }
 
+#concluido_pendente {
+}
+
 label {
     color: #e2e8f0;
+    font-size: 20px;
 }
 
 button {
